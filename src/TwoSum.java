@@ -24,9 +24,9 @@ public class TwoSum {
 
         TwoSum sol = new TwoSum();
         int[] nums = {2, 6, 8, 7, 11, 15};
-        int target = 9;
+        int target = 26;
         int[] result = sol.findTwoSum(nums, target);
-        System.out.println("Indices: [" + result[0] + ", " + result[1] + "]");
+        System.out.println("[" + result[0] + ", " + result[1] + "]");
 
     }
 }
