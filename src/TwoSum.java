@@ -5,7 +5,7 @@ public class TwoSum {
 
 
 
-    public int[] twoSum(int[] nums, int target) {
+    public int[] findTwoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap();
 
         for(int i = 0; i< nums.length ; i++){
@@ -25,7 +25,7 @@ public class TwoSum {
         TwoSum sol = new TwoSum();
         int[] nums = {2, 6, 8, 7, 11, 15};
         int target = 9;
-        int[] result = sol.twoSum(nums, target);
+        int[] result = sol.findTwoSum(nums, target);
         System.out.println("Indices: [" + result[0] + ", " + result[1] + "]");
 
     }
